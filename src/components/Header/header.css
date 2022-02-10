@@ -1,0 +1,33 @@
+.header__nav{
+    display: flex;
+    width: 100%;
+}
+
+.header__logo{
+    width: 20%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.header__list{
+    width: 80%;
+    display: flex;
+    column-gap: 55px;
+    background: #444444;
+    justify-content: center;
+    border-radius: 0 8px 8px 0;
+    padding: 16px 0;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.header__item {
+    cursor: pointer;
+}
